@@ -27,12 +27,12 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Item><Nav.Link href="/">About</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/b">Front House</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/c">Back House</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/d">The Neighborhood</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/e">Austin</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/f">Hill Country</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/g">Revervations</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/fronthouse">Front House</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/backhouse">Back House</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/neighborhood">The Neighborhood</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/austin">Austin</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/hillcountry">Hill Country</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/reservations">Revervations</Nav.Link></Nav.Item>
                         <a href="/h" target='_blank'>Instagram</a>
                     </Nav>
                 </Navbar.Collapse>
