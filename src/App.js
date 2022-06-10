@@ -10,13 +10,14 @@ import Austin from "./Pages/Austin"
 import HillCountry from "./Pages/HillCountry"
 import Revervations from "./Pages/Reservations"
 import NoMatch from "./Pages/NoMatch"
+import Jumbotron from "./Components/Jumbotron"
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hi!</h1>
+      <Jumbotron />
       <Container>
         <Router>
           <Routes>
