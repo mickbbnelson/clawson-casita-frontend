@@ -33,7 +33,7 @@ const Header = () => {
                         <Nav.Item><Nav.Link href="/austin">Austin</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link href="/hillcountry">Hill Country</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link href="/reservations">Revervations</Nav.Link></Nav.Item>
-                        <a href="/h" target='_blank'>Instagram</a>
+                        <a href="https://www.instagram.com/clawsoncasita/?hl=en" target='_blank'>Instagram</a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
