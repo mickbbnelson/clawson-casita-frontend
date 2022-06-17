@@ -16,6 +16,23 @@ const Styles = styled.div`
         color: black  
      }
 
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-instagram {
+        background: #C2B280 ;
+        color: black;
+    }
+
 `;
 
 const Header = () => {
@@ -33,7 +50,7 @@ const Header = () => {
                         <Nav.Item><Nav.Link href="/austin">Austin</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link href="/hillcountry">Hill Country</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link href="/reservations">Revervations</Nav.Link></Nav.Item>
-                        <a href="https://www.instagram.com/clawsoncasita/?hl=en" target='_blank'>Instagram</a>
+                        <a href="https://www.instagram.com/clawsoncasita/?hl=en" target='_blank' className="fa fa-instagram"></a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
