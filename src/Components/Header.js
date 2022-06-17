@@ -17,7 +17,9 @@ const Styles = styled.div`
      }
 
     .fa {
-        padding: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
         font-size: 30px;
         width: 50px;
         text-align: center;
